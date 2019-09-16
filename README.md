@@ -63,20 +63,21 @@ In order to install and start the application please ensure that you have the fo
 
 
 ## Instructions
-1. Navigate to [financial-service](https://github.com/garytxo/financial-service)
+1. The code can be found in github  [financial-service](https://github.com/garytxo/financial-service)
 2. Clone locally using
    `git clone git@github.com:garytxo/financial-service`
+   
 3. create the financial database schema by opening a terminal and executing the following command
     
     `mysql -uroot -Bse'CREATE DATABASE financial'`
-
-3. Install dependencies using `mvn clean install`
-4. Run tests using `mvn test`
-5. Start your server using 
-    
+4. Install dependencies and run test
     `cd financial-app`
-    
+    `mvn clean install`
+
+5. Start your server using 
+   
     `mvn spring-boot:run`
+    
 6. To view the REST API endpoints check the swagger documentation [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 

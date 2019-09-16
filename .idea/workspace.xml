@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bdf20ae-4db5-42a4-ac0d-5066d05654ed" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financial-business/src/main/java/com/murray/financial/service/impl/BankAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/financial-business/src/main/java/com/murray/financial/service/impl/BankAccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financial-dtos/src/main/java/com/murray/financial/dtos/TransferDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/financial-dtos/src/main/java/com/murray/financial/dtos/TransferDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financial-dtos/src/main/java/com/murray/financial/dtos/TransferSearchCriteriaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/financial-dtos/src/main/java/com/murray/financial/dtos/TransferSearchCriteriaDTO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/financial-app/target/" />
@@ -46,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/financial-dtos/src/main/java/com/murray/financial/dtos/TransferSearchCriteriaDTO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -67,8 +63,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="466">
-                <caret line="108" column="2" selection-start-line="108" selection-start-column="2" selection-end-line="108" selection-end-column="2" />
+              <first_editor relative-caret-position="313">
+                <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -654,7 +650,7 @@
       <workItem from="1568477271129" duration="8478000" />
       <workItem from="1568523981224" duration="43537000" />
       <workItem from="1568573222858" duration="3226000" />
-      <workItem from="1568606438918" duration="39907000" />
+      <workItem from="1568606438918" duration="40594000" />
     </task>
     <servers />
   </component>
@@ -691,7 +687,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269643000" />
+    <option name="totallyTimeSpent" value="270330000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1277,15 +1273,15 @@
     <entry file="file://$PROJECT_DIR$/financial-dtos/src/main/java/com/murray/financial/dtos/TransferSearchCriteriaDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="466">
-            <caret line="108" column="2" selection-start-line="108" selection-start-column="2" selection-end-line="108" selection-end-column="2" />
+          <first_editor relative-caret-position="313">
+            <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
