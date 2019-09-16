@@ -1,0 +1,12 @@
+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(í¹›ø8–Íõ¨Ó-
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(à×>8–Íõ¨Ó-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²ñÌß8Òû¼¨Ó-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹ÄïÒ8–Íõ¨Ó-
+Msquid:S1602",Remove useless curly braces around statement(ùà¸‡úÿÿÿÿ8–Íõ¨Ó-
+`squid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8–Íõ¨Ó-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹ÄïÒ8–Íõ¨Ó-

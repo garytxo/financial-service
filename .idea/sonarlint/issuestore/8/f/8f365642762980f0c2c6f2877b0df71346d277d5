@@ -1,0 +1,4 @@
+
+„squid:UselessImportCheck"[Remove this unused import 'com.murray.financial.domain.repository.query.BankAccountResult'.(á°»å8”üþ¨Ó-
+^squid:UselessImportCheck"0Remove this unused import 'java.time.LocalDate'.(›‘¬èýÿÿÿÿ8Áûÿ¨Ó-
+Zsquid:UnusedPrivateMethod"0Remove this unused private "validAmount" method.(þ­Î¯8ÈŒü¨Ó-

@@ -1,0 +1,5 @@
+
+Â%squid:RedundantThrowsDeclarationCheck6"„Remove the declaration of thrown exception 'com.murray.financial.exceptions.TransferCreationException' which is a runtime exception.(©†ûÿÿÿÿ8êò¼³Ó-
+Á%squid:RedundantThrowsDeclarationChecku"ƒRemove the declaration of thrown exception 'com.murray.financial.exceptions.AccountCreationException' which is a runtime exception.(Á„øéùÿÿÿÿ8êò¼³Ó-
+†squid:S1488}"cImmediately return this expression instead of assigning it to the temporary variable "bankAccount".(âœıùÿÿÿÿ8êò¼³Ó-
+Â%squid:RedundantThrowsDeclarationCheck›"ƒRemove the declaration of thrown exception 'com.murray.financial.exceptions.AccountCreationException' which is a runtime exception.(èª›îúÿÿÿÿ8êò¼³Ó-

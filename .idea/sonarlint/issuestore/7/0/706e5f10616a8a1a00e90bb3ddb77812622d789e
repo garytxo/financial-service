@@ -1,0 +1,5 @@
+
+<squid:S2326"R is not used in the class.(Îé’ûûÿÿÿÿ8¦›Æ¨Ó-
+<squid:S2326"Q is not used in the class.(Îé’ûûÿÿÿÿ8¦›Æ¨Ó-
+Šsquid:UselessImportCheck"bRemove this unused import 'com.murray.financial.domain.repository.BankAccountJPACustomRepository'.(ÈâÓ8¦›Æ¨Ó-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²ñÌß8šŽÁ¨Ó-
