@@ -71,11 +71,11 @@ In order to install and start the application please ensure that you have the fo
     
     `mysql -uroot -Bse'CREATE DATABASE financial'`
 4. Install dependencies and run test
-    `cd financial-app`
+    `cd financial-service`
     `mvn clean install`
 
 5. Start your server using 
-   
+    `cd financial-app`
     `mvn spring-boot:run`
     
 6. To view the REST API endpoints check the swagger documentation [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
