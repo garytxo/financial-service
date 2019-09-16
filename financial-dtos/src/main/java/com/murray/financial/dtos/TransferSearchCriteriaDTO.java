@@ -20,11 +20,11 @@ import lombok.NoArgsConstructor;
 public class TransferSearchCriteriaDTO {
 
     @JsonProperty(value = "source")
-    @ApiModelProperty(value = "filter on source bank account IBAN number ", required = true)
+    @ApiModelProperty(value = "filter on source bank account IBAN number ")
     private String source;
 
     @JsonProperty(value = "destination")
-    @ApiModelProperty(value = "filter on destination bank account IBAN number ", required = true)
+    @ApiModelProperty(value = "filter on destination bank account IBAN number ")
     private String destination;
 
 

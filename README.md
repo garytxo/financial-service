@@ -81,8 +81,34 @@ In order to install and start the application please ensure that you have the fo
 
 
 ## API USAGE
+The following are a list of useful API usages one can perform
 
-# Create a new account 
+-  Create a new account The following will create a new bank account with 100 euros deposit
+`curl -X POST "http://localhost:8080/Account" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"balance\": 100, \"currency\": \"EUR\"}"`
+
+- Update an account status or currency :
+`curl -X PUT "http://localhost:8080/Account/MC242531931898PO86I8BD25Q26" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"currency\": \"USD\"}"`
+
+- Delete an account by the IBAN number
+`curl -X DELETE "http://localhost:8080/Account/MC242531931898PO86I8BD25Q26" -H "accept: */*"`
+
+- Find all account with currency EUR and order by balance desc
+`curl -X GET "http://localhost:8080/Account?currency=EUR&orderBy=balance&sortOrder=desc" -H "accept: */*"`
+
+- Find all account with balance of 100 EUR and order by currency descending
+`curl -X GET "http://localhost:8080/Account?balance=100&currency=EUR&orderBy=currency&sortOrder=asc" -H "accept: */*"`
+
+- Create a transfer between to valid accounts which has not been executed
+`curl -X POST "http://localhost:8080/Transfer" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"amount\": 100, \"description\": \"Party at the Ritz\", \"destination\": \"AT931551366098047339\", \"source\": \"GB14HFLH31198266710918\"}"`
+
+- Find all transfers 
+`curl -X GET "http://localhost:8080/Transfer" -H "accept: */*"`
+
+- Find transfer by for a certain destination account id and order by source desc
+`curl -X GET "http://localhost:8080/Transfer?destination=GB09LUGV58378718496633&orderBy=source&sortOrder=desc" -H "accept: */*"`
+
+- Execute a transfer 
+`curl -X PUT "http://localhost:8080/Execute-Transfer/1" -H "accept: */*"`
 
 
 ## Discussion
@@ -94,7 +120,7 @@ In order to install and start the application please ensure that you have the fo
     * mockito & junit test
     * hamcrest
     * swagger -> REST API documentation
-    * dozer -> bean mapping and csv import
+    * Super CSV  ->  csv import
     
 * swagger for REST documentation
 * Spring ControllerAdvice for exception handling
@@ -102,7 +128,7 @@ In order to install and start the application please ensure that you have the fo
 * create a HandlerMethodArgumentResolver deal with authenticating the logged user
 
 * Decided to use a TTD approach to solve this challenge 
-* Separate the business logic in a different artifact 
+* Separate the business logic and DTO in a different artifacts 
 
 ## Things I could look for future enhancements 
 - Use flyway to manage database changes

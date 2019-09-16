@@ -31,7 +31,6 @@ public class TransferDTO {
 
     @JsonProperty(value = "id")
     @ApiModelProperty(value = "Transfer unique id ",
-            required = true,
             example = "12121"
     )
     private Long id;
@@ -44,7 +43,7 @@ public class TransferDTO {
     private String source;
 
     @JsonProperty(value = "destination")
-    @ApiModelProperty(value = "Destination bank account IBAN number", required = true,
+    @ApiModelProperty(value = "Destination bank account IBAN number",
             example = "ES23S020903200500041045040A111")
     private String destination;
 

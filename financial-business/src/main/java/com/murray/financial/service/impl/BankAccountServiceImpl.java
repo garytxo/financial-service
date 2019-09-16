@@ -216,8 +216,15 @@ public class BankAccountServiceImpl implements AccountService {
                 () -> new IllegalArgumentException("Could not find original bank account for updating")
         );
 
-        original.setCurrency(bankAccount.getCurrency());
-        original.setStatus(bankAccount.getStatus());
+        if(Objects.nonNull(bankAccount.getStatus())){
+            original.setStatus(bankAccount.getStatus());
+        }
+
+        if(Objects.nonNull(bankAccount.getCurrency())){
+            original.setCurrency(bankAccount.getCurrency());
+        }
+
+
 
         return backAccountRepository.save(original);
     }
