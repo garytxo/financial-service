@@ -63,8 +63,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="313">
-                <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+              <first_editor relative-caret-position="135">
+                <caret line="67" column="4" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="70" />
               </first_editor>
               <second_editor />
             </state>
@@ -650,7 +650,7 @@
       <workItem from="1568477271129" duration="8478000" />
       <workItem from="1568523981224" duration="43537000" />
       <workItem from="1568573222858" duration="3226000" />
-      <workItem from="1568606438918" duration="40594000" />
+      <workItem from="1568606438918" duration="40780000" />
     </task>
     <servers />
   </component>
@@ -687,7 +687,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270330000" />
+    <option name="totallyTimeSpent" value="270516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1280,8 +1280,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="313">
-            <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <first_editor relative-caret-position="135">
+            <caret line="67" column="4" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="70" />
           </first_editor>
           <second_editor />
         </state>
