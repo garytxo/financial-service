@@ -65,7 +65,7 @@ In order to install and start the application please ensure that you have the fo
 ## Instructions
 1. The code can be found in github  [financial-service](https://github.com/garytxo/financial-service)
 2. Clone locally using
-   `git clone https://github.com/garytxo/friends-request-challenge.git`
+   `git clone https://github.com/garytxo/financial-service.git`
    
 3. create the financial database schema by opening a terminal and executing the following command
     
