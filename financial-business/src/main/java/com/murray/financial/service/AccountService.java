@@ -2,14 +2,12 @@ package com.murray.financial.service;
 
 import com.murray.financial.domain.entity.AccountTransfer;
 import com.murray.financial.domain.entity.BankAccount;
-import com.murray.financial.domain.entity.Transaction;
 import com.murray.financial.domain.enums.AccountCurrency;
 import com.murray.financial.domain.repository.query.BankAccountResult;
 import com.murray.financial.domain.repository.query.BankAccountSearch;
 import com.murray.financial.domain.repository.query.TransferAccountResult;
 import com.murray.financial.domain.repository.query.TransferSearch;
 import com.murray.financial.exceptions.AccountCreationException;
-import com.murray.financial.exceptions.TransferCreationException;
 import com.murray.financial.querybuilder.QueryCondition;
 
 import java.math.BigDecimal;
@@ -39,6 +37,7 @@ public interface AccountService {
 
     /**
      * Find {@link BankAccount} by internal id number.
+     *
      * @param id Long
      * @return {@link BankAccount}
      */
@@ -47,15 +46,16 @@ public interface AccountService {
 
     /**
      * Find {@link BankAccount} by unique iban number
+     *
      * @param ibanNumber string iban number
      * @return {@link BankAccount}
      */
     Optional<BankAccount> findAccountBy(final String ibanNumber);
 
 
-
     /**
      * Updates the {@link BankAccount} status and currency
+     *
      * @param bankAccount {@link BankAccount}
      */
     BankAccount updateAccount(final BankAccount bankAccount);
@@ -63,6 +63,7 @@ public interface AccountService {
 
     /**
      * Save bank account entity
+     *
      * @param bankAccount {@link BankAccount}
      * @return {@link BankAccount}
      */
@@ -78,6 +79,7 @@ public interface AccountService {
 
     /**
      * Account​ balances are updated due to an Operational Banking Tax
+     *
      * @param taxRate
      */
     void updateAccountBalancesWith(final BigDecimal taxRate);
@@ -95,6 +97,7 @@ public interface AccountService {
 
     /**
      * Save or updates a {@link AccountTransfer}
+     *
      * @param accountTransfer {@link AccountTransfer}
      * @return {@link AccountTransfer}
      */
@@ -116,6 +119,7 @@ public interface AccountService {
     /**
      * Find {@link TransferAccountResult} based on the {@link TransferSearch} query fields
      * and conditions
+     *
      * @param transferSearch {@link TransferSearch} which is used to generate the native query
      * @return list of {@link TransferAccountResult}
      */

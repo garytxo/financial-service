@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * Converts the AccountTransfer domain to a {@link TransferDTO}
  */
 @Component
-public class AccountTransferDomainToDto implements Converter<AccountTransfer,TransferDTO> {
+public class AccountTransferDomainToDto implements Converter<AccountTransfer, TransferDTO> {
 
 
     @Override

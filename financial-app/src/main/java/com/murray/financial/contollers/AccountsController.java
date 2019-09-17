@@ -84,7 +84,7 @@ public class AccountsController {
             @ApiParam(value = "BankAccount details that should be updated ")
             @RequestBody BankAccountDTO bankAccountDTO) {
 
-        LOGGER.info("update ibanNUmber:{} and  details:{}",ibanNUmber, bankAccountDTO);
+        LOGGER.info("update ibanNUmber:{} and  details:{}", ibanNUmber, bankAccountDTO);
 
         bankAccountDTO.setIbanNumber(ibanNUmber);
         return accountsAdapter.update(bankAccountDTO);

@@ -20,9 +20,8 @@ public class FinancialRestExceptionHandler {
     private static final Logger LOGGER = LoggerFactory.getLogger(FinancialRestExceptionHandler.class);
 
 
-
     @ExceptionHandler(value = {NotFoundException.class})
-    protected ResponseEntity<ErrorResponse> notFound(NotFoundException ex,WebRequest webRequest) {
+    protected ResponseEntity<ErrorResponse> notFound(NotFoundException ex, WebRequest webRequest) {
 
         LOGGER.error(String.format("Not found %s Exception", ex.getClass().getSimpleName()), ex);
 
@@ -32,7 +31,7 @@ public class FinancialRestExceptionHandler {
     }
 
     @ExceptionHandler(value = {IllegalArgumentException.class})
-    protected ResponseEntity<ErrorResponse> handleConflict(IllegalArgumentException ex,WebRequest webRequest) {
+    protected ResponseEntity<ErrorResponse> handleConflict(IllegalArgumentException ex, WebRequest webRequest) {
 
         LOGGER.error(String.format("%s Exception", ex.getClass().getSimpleName()), ex);
 
@@ -42,7 +41,7 @@ public class FinancialRestExceptionHandler {
     }
 
     @ExceptionHandler(value = {AccountCreationException.class})
-    protected ResponseEntity<ErrorResponse> accountCreatonErrors(AccountCreationException ex,WebRequest webRequest) {
+    protected ResponseEntity<ErrorResponse> accountCreatonErrors(AccountCreationException ex, WebRequest webRequest) {
 
         LOGGER.error(String.format("Account creation error %s Exception", ex.getClass().getSimpleName()), ex);
 
@@ -53,7 +52,7 @@ public class FinancialRestExceptionHandler {
     }
 
     @ExceptionHandler(value = {TransferCreationException.class})
-    protected ResponseEntity<ErrorResponse> tranferCreationError(TransferCreationException ex,WebRequest webRequest) {
+    protected ResponseEntity<ErrorResponse> tranferCreationError(TransferCreationException ex, WebRequest webRequest) {
 
         LOGGER.error(String.format("Transfer creation error %s Exception", ex.getClass().getSimpleName()), ex);
 

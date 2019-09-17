@@ -17,8 +17,8 @@ public class JobsConfig {
     public OperationalBankingJob operationalBankingJob(final AccountService accountService,
                                                        @Value("${operational.banking.job.rate}") BigDecimal rate) {
 
-        System.out.println("rate.... "+rate.toString());
-        return new OperationalBankingJob(accountService,rate);
+        System.out.println("rate.... " + rate.toString());
+        return new OperationalBankingJob(accountService, rate);
 
     }
 }

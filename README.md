@@ -63,23 +63,40 @@ In order to install and start the application please ensure that you have the fo
 
 
 ## Instructions
-1. The code can be found in github  [financial-service](https://github.com/garytxo/financial-service)
-2. Clone locally using
+1. The code can be found in github repo [financial-service](https://github.com/garytxo/financial-service)
+
+2. Clone repository locally using
+
    `git clone https://github.com/garytxo/financial-service.git`
-   
-3. create the financial database schema by opening a terminal and executing the following command
-    
-    `mysql -uroot -Bse'CREATE DATABASE financial'`
-4. Install dependencies and run test
+      
+3. Install dependencies and run test
+
     `cd financial-service`
+    
     `mvn clean install`
 
-5. Start your server using 
+4. Start your server using 
+
     `cd financial-app`
+    
     `mvn spring-boot:run`
     
-6. To view the REST API endpoints check the swagger documentation [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+5. To view the REST API endpoints check the swagger documentation [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
+
+## Change H2 to Mysql database
+By default the application is configured to run against H2 database, in order to change to run against mysql please following the instructions
+below:
+
+1. create the financial database schema by opening a terminal and executing the following command
+       
+       `mysql -uroot -Bse'CREATE DATABASE financial'`
+       
+2. Update the application-mysql.properties connection details
+
+3. Change the active profile to ``mysql` in the application.properties 
+    
+    `spring.profiles.active=mysql`
 
 ## API USAGE
 The following are a list of useful API usages one can perform

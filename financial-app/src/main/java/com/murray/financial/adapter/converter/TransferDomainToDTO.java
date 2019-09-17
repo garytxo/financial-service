@@ -11,7 +11,7 @@ import java.util.Objects;
  * Converts the {@link AccountTransfer} to a {@link TransferDTO}
  */
 @Component
-public class TransferDomainToDTO implements Converter<AccountTransfer,TransferDTO> {
+public class TransferDomainToDTO implements Converter<AccountTransfer, TransferDTO> {
 
     @Override
     public TransferDTO convert(AccountTransfer accountTransfer) {
@@ -22,14 +22,14 @@ public class TransferDomainToDTO implements Converter<AccountTransfer,TransferDT
         dto.setAmount(accountTransfer.getAmount());
         dto.setDescription(accountTransfer.getDescription());
 
-        if(Objects.nonNull(accountTransfer.getSource())){
+        if (Objects.nonNull(accountTransfer.getSource())) {
             dto.setSource(accountTransfer.getSource().getIbanNumber());
         }
 
-        if(Objects.nonNull(accountTransfer.getDestination())){
+        if (Objects.nonNull(accountTransfer.getDestination())) {
             dto.setDestination(accountTransfer.getDestination().getIbanNumber());
         }
-        if(Objects.nonNull(accountTransfer.getTimeStamp())){
+        if (Objects.nonNull(accountTransfer.getTimeStamp())) {
             dto.setExecutionTime(accountTransfer.getTimeStamp());
         }
 

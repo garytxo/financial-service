@@ -13,6 +13,7 @@ public class ConverterConfig {
 
     /**
      * This is necessary otherwise customized converters are not registered
+     *
      * @param converters
      * @return
      */

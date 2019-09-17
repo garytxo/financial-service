@@ -51,6 +51,11 @@ public class CSVTransfersFileImporter extends CSVImporterBase<CSVTransfersFileIm
 
     }
 
+    /**
+     * Converts the TransferRow into an {@link AccountTransfer} which is saved and
+     * then the transfer is executed.
+     * @param transferRows
+     */
     private void transformAndSave(final List<TransferRow> transferRows) {
 
 

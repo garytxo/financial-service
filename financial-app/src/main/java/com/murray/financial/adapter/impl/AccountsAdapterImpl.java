@@ -159,9 +159,9 @@ public class AccountsAdapterImpl implements AccountsAdapter {
     public TransferDTO executeTransfer(Long transferId) {
 
 
-        AccountTransfer transfer =  accountService.executeTransfer(transferId);
+        AccountTransfer transfer = accountService.executeTransfer(transferId);
 
-        return conversionService.convert(transfer,TransferDTO.class);
+        return conversionService.convert(transfer, TransferDTO.class);
     }
 
     /**
@@ -186,6 +186,7 @@ public class AccountsAdapterImpl implements AccountsAdapter {
 
     /**
      * Convert the {@link TransferAccountResult} into their corresponding {@link TransferDTO}
+     *
      * @param results
      * @return list of  {@link TransferDTO}
      */

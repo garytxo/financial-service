@@ -1,3 +1,2 @@
 
-†squid:UselessImportCheck"VRemove this unused import 'com.murray.financial.exceptions.TransferCreationException'.(ØöŽÑýÿÿÿÿ8üöÖ£Ó-
-¼%squid:RedundantThrowsDeclarationCheck$"ƒRemove the declaration of thrown exception 'com.murray.financial.exceptions.AccountCreationException' which is a runtime exception.(ƒ˜‚È8¼ÏÄ³Ó-
+„squid:UselessImportCheck"VRemove this unused import 'com.murray.financial.exceptions.TransferCreationException'.(ØöŽÑýÿÿÿÿ8ÙµÃÖÓ-

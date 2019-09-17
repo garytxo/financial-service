@@ -21,7 +21,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.jdbc.Sql;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
@@ -38,7 +37,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
 import static org.hamcrest.core.IsNull.notNullValue;
 import static org.hamcrest.core.IsNull.nullValue;
 
-@ActiveProfiles({"test"})
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Transactional
@@ -67,23 +66,23 @@ public class AccountServiceITTest {
     }
 
     @Test
-    public void find_no_transfers_for_source_account_id(){
+    public void find_no_transfers_for_source_account_id() {
 
 
         BankAccount source = mockAccount(BigDecimal.ZERO, AccountStatus.ACTIVE, AccountCurrency.EUR);
         QueryCondition sourceIdCondition = new QueryCondition(TransferQueryField.SOURCE, Operator.EQUALS, source.getId());
 
-        TransferSearch transferSearch = transferSearch(null,sourceIdCondition);
+        TransferSearch transferSearch = transferSearch(null, sourceIdCondition);
 
         List<TransferAccountResult> results = accountService.findTransfersBy(transferSearch);
 
-        assertThat(results.size(),is(equalTo(0)));
+        assertThat(results.size(), is(equalTo(0)));
 
 
     }
 
     @Test
-    public void find_one_transfer_for_source_id_match(){
+    public void find_one_transfer_for_source_id_match() {
 
         String description = "transfer 700";
         BigDecimal transferAmt = new BigDecimal(700L);
@@ -96,15 +95,15 @@ public class AccountServiceITTest {
         QueryCondition sourceIdCondition = new QueryCondition(TransferQueryField.SOURCE, Operator.EQUALS, source.getIbanNumber());
         OrderCondition orderByAmount = new OrderCondition(TransferQueryField.DESTINATION);
 
-        TransferSearch transferSearch = transferSearch(orderByAmount,sourceIdCondition);
+        TransferSearch transferSearch = transferSearch(orderByAmount, sourceIdCondition);
 
         List<TransferAccountResult> results = accountService.findTransfersBy(transferSearch);
 
-        assertThat(results.size(),is(equalTo(1)));
+        assertThat(results.size(), is(equalTo(1)));
 
-        assertThat(results.get(0).getAmount().longValue(),is(equalTo(transferAmt.longValue())));
+        assertThat(results.get(0).getAmount().longValue(), is(equalTo(transferAmt.longValue())));
 
-        assertThat(results.get(0).getSourceAccountIbanNumber(),is(source.getIbanNumber()));
+        assertThat(results.get(0).getSourceAccountIbanNumber(), is(source.getIbanNumber()));
 
     }
 
@@ -214,8 +213,8 @@ public class AccountServiceITTest {
     public void generates_iban_when_iban_is_null() throws Exception {
 
         BankAccount result = accountService.saveBankAccount(null, AccountCurrency.EUR, ZERO);
-        assertThat(result,is(notNullValue()));
-        assertThat(result.getIbanNumber(),is(notNullValue()));
+        assertThat(result, is(notNullValue()));
+        assertThat(result.getIbanNumber(), is(notNullValue()));
 
     }
 
@@ -322,7 +321,7 @@ public class AccountServiceITTest {
                 new QueryCondition(BankAccountQueryField.STATUS, Operator.EQUALS, IBAN_NUMBER_SWEDEN.getStatus().name());
 
 
-        BankAccountSearch bankAccountSearch = toBankAccountSearchWith(balanceQueryCondition,ibanNumberQueryCondition,statusQueryCondition);
+        BankAccountSearch bankAccountSearch = toBankAccountSearchWith(balanceQueryCondition, ibanNumberQueryCondition, statusQueryCondition);
 
         List<BankAccountResult> results = accountService.findBankAccountsBy(bankAccountSearch);
 
@@ -390,26 +389,27 @@ public class AccountServiceITTest {
 
     }
 
-    BankAccountSearch toBankAccountSearchWith(QueryCondition ... conditions){
+    BankAccountSearch toBankAccountSearchWith(QueryCondition... conditions) {
 
         BankAccountSearch search = new BankAccountSearch();
 
-        for(QueryCondition condition:conditions){
+        for (QueryCondition condition : conditions) {
             search.addCondition(condition);
         }
 
         return search;
     }
 
-    TransferSearch transferSearch(OrderCondition orderCondition, QueryCondition ... conditions){
+    TransferSearch transferSearch(OrderCondition orderCondition, QueryCondition... conditions) {
 
         TransferSearch search = new TransferSearch();
 
-        for(QueryCondition condition:conditions){
+        for (QueryCondition condition : conditions) {
             search.addCondition(condition);
         }
-        if(Objects.nonNull(orderCondition)){
-            search.setOrderCondition(orderCondition);;
+        if (Objects.nonNull(orderCondition)) {
+            search.setOrderCondition(orderCondition);
+            ;
         }
 
         return search;
