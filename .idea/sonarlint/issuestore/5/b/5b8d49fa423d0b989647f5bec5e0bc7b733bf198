@@ -1,69 +1,0 @@
-
-Bsquid:S2111"!Use "BigDecimal.valueOf" instead.(¡¦ôªüÿÿÿÿ8»ã¦Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(ßè“Ç8Ğ¼¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(²“œ8ºø³¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(©´»Ã8»Æ¬¦Ó-
-Esquid:S2129"$Remove this "BigDecimal" constructor(üŒÊÛøÿÿÿÿ8çİ¥¦Ó-
-Ssquid:S3878"8Remove this array creation and simply pass the elements.(îÓ—E8ºø³¦Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(‡üéã8ÑŠ˜¦Ó-
-Bsquid:S2111"!Use "BigDecimal.valueOf" instead.(ƒ±¬çüÿÿÿÿ8»Æ¬¦Ó-
-Bsquid:S2111"!Use "BigDecimal.valueOf" instead.(‘©ğúÿÿÿÿ8®ª¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(‡üéã8ÑŠ˜¦Ó-
-Bsquid:S2111"!Use "BigDecimal.valueOf" instead.(ÚÒ‹¹ûÿÿÿÿ8ºø³¦Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(­û³æ8àİ°¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(³¾¡ÿ8»ã¦Ó-
-Esquid:S2129"$Remove this "BigDecimal" constructor(ÚÒ‹¹ûÿÿÿÿ8ºø³¦Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(ùªÆİ8»ã¦Ó-
-Esquid:S2129"$Remove this "BigDecimal" constructor(šª˜äûÿÿÿÿ8ºø³¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(ßè“Ç8Ğ¼¦Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(³¾¡ÿ8»ã¦Ó-
-Bsquid:S2111"!Use "BigDecimal.valueOf" instead.(üŒÊÛøÿÿÿÿ8çİ¥¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(—¤«Õ8»Æ¬¦Ó-
-@squid:S1640"Convert this Map to an EnumMap.(ˆôÒóûÿÿÿÿ8°ÁĞ¦Ó-
-Ssquid:S3878"8Remove this array creation and simply pass the elements.(îÓ—E8çİ¥¦Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(—¤«Õ8»Æ¬¦Ó-
-Esquid:S2129"$Remove this "BigDecimal" constructor(²ïÎòùÿÿÿÿ8¢Å–¦Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(²“œ8ºø³¦Ó-
-?squid:S2129"$Remove this "BigDecimal" constructor(Æ¢8çİ¥¦Ó-
-Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Â…ú¥Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(¯—äÑ8Ğ¼¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(ùªÆİ8»ã¦Ó-
-<squid:S2111"!Use "BigDecimal.valueOf" instead.(–¦z8çİ¥¦Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(©´»Ã8»Æ¬¦Ó-
-Esquid:S2129"$Remove this "BigDecimal" constructor(‘©ğúÿÿÿÿ8®ª¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(“Ç·ú8ºø³¦Ó-
-Ssquid:S3878"8Remove this array creation and simply pass the elements.(îÓ—E8Ğ¼¦Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(±Ø½§8Îï™¦Ó-
-Bsquid:S2111"!Use "BigDecimal.valueOf" instead.(¬¯ğ‡ùÿÿÿÿ8ÒÄœ¦Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(ï´Ñğ8»ã¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(”¢é8»Æ¬¦Ó-
-Esquid:S2129"$Remove this "BigDecimal" constructor(Õœğ“ıÿÿÿÿ8Ğ¼¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(­û³æ8àİ°¦Ó-
-Bsquid:S2111"!Use "BigDecimal.valueOf" instead.(“ÏÆèüÿÿÿÿ8çİ¥¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(¯—äÑ8Ğ¼¦Ó-
-<squid:S2111"!Use "BigDecimal.valueOf" instead.(à¦÷M8ÒÄœ¦Ó-
-Bsquid:S2111"!Use "BigDecimal.valueOf" instead.(²ïÎòùÿÿÿÿ8¢Å–¦Ó-
-Ssquid:S3878"8Remove this array creation and simply pass the elements.(îÓ—E8Ğê†¦Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(”¢é8»Æ¬¦Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(òÁÍ©8– ¶¦Ó-
-Esquid:S2129"$Remove this "BigDecimal" constructor(¡¦ôªüÿÿÿÿ8»ã¦Ó-
-Esquid:S2129"$Remove this "BigDecimal" constructor(“ÏÆèüÿÿÿÿ8çİ¥¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(ï´Ñğ8»ã¦Ó-
-Esquid:S2129"$Remove this "BigDecimal" constructor(ƒ±¬çüÿÿÿÿ8»Æ¬¦Ó-
-?squid:S2129"$Remove this "BigDecimal" constructor(à¦÷M8ÒÄœ¦Ó-
-?squid:S2129"$Remove this "BigDecimal" constructor(–¦z8çİ¥¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(ÿ²óã8Åç¡¦Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(ÿ²óã8Åç¡¦Ó-
-Esquid:S2129"$Remove this "BigDecimal" constructor(¢Ÿ£óúÿÿÿÿ8Ğ¼¦Ó-
-Ssquid:S3878"8Remove this array creation and simply pass the elements.(îÓ—E8»Æ¬¦Ó-
-=squid:S2111"!Use "BigDecimal.valueOf" instead.(“Ç·ú8ºø³¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(±Ø½§8Îï™¦Ó-
-Bsquid:S2111"!Use "BigDecimal.valueOf" instead.(Õœğ“ıÿÿÿÿ8Ğ¼¦Ó-
-Bsquid:S2111"!Use "BigDecimal.valueOf" instead.(¢Ÿ£óúÿÿÿÿ8Ğ¼¦Ó-
-@squid:S2129"$Remove this "BigDecimal" constructor(òÁÍ©8– ¶¦Ó-
-Esquid:S2129"$Remove this "BigDecimal" constructor(„°Âßøÿÿÿÿ8ÈÀ¦Ó-
-<squid:S2111"!Use "BigDecimal.valueOf" instead.(Æ¢8çİ¥¦Ó-
-Bsquid:S2111"!Use "BigDecimal.valueOf" instead.(„°Âßøÿÿÿÿ8ÈÀ¦Ó-
-Ssquid:S3878"8Remove this array creation and simply pass the elements.(îÓ—E8»ã¦Ó-
-Bsquid:S2111"!Use "BigDecimal.valueOf" instead.(šª˜äûÿÿÿÿ8ºø³¦Ó-
-Esquid:S2129"$Remove this "BigDecimal" constructor(¬¯ğ‡ùÿÿÿÿ8ÒÄœ¦Ó-

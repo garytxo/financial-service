@@ -1,10 +1,0 @@
-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Å¤Š¹øÿÿÿÿ8®±¬Ó-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(—Êáìşÿÿÿÿ8®±¬Ó-
-…squid:UselessImportCheck"\Remove this unused import 'com.murray.financial.domain.repository.BackAccountJPARepository'.(½ß²÷8şèÆ¨Ó-
-rsquid:UselessImportCheck"IRemove this unused import 'org.omg.PortableInterceptor.SYSTEM_EXCEPTION'.(öØÁ8¿Ì¬Ó-
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²ñÌß8ŒÈ½¨Ó-
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(ö¦Ã8¿Ì¬Ó-
