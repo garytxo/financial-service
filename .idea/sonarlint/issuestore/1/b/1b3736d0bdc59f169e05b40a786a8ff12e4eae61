@@ -1,2 +1,5 @@
 
-„squid:S1488"cImmediately return this expression instead of assigning it to the temporary variable "bankAccount".(âœıùÿÿÿÿ8»ÌÃÖÓ-
+†squid:S1488z"cImmediately return this expression instead of assigning it to the temporary variable "bankAccount".(âœıùÿÿÿÿ8»ÌÃÖÓ-
+Â%squid:RedundantThrowsDeclarationCheck6"„Remove the declaration of thrown exception 'com.murray.financial.exceptions.TransferCreationException' which is a runtime exception.(©†ûÿÿÿÿ8æ †òÓ-
+Á%squid:RedundantThrowsDeclarationCheckr"ƒRemove the declaration of thrown exception 'com.murray.financial.exceptions.AccountCreationException' which is a runtime exception.(Á„øéùÿÿÿÿ8æ †òÓ-
+Â%squid:RedundantThrowsDeclarationCheck˜"ƒRemove the declaration of thrown exception 'com.murray.financial.exceptions.AccountCreationException' which is a runtime exception.(èª›îúÿÿÿÿ8æ †òÓ-
