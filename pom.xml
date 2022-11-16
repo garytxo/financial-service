@@ -22,7 +22,7 @@
         <jooq.version>3.11.11</jooq.version>
         <common.validator.version>1.4.0</common.validator.version>
         <iban4j.version>3.2.1</iban4j.version>
-        <jackson.version>2.12.6.1</jackson.version>
+        <jackson.version>2.12.7.1</jackson.version>
         <swagger.verion>2.9.2</swagger.verion>
         <dozer.version>5.5.1</dozer.version>
         <supercsv.version>2.4.0</supercsv.version>
